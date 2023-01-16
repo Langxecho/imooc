@@ -271,5 +271,33 @@ ul.onmouseenter = function(){
     }
 }
 
+{
+    // 获取所有的a标签(tab栏)
+    const tabs = document.querySelectorAll('.must-header a');
+    // 获取到所有的课程表
+    const uls = document.querySelectorAll('.must-list ul');
+
+    let uu = 0;
+    for(let i = 0;i<tabs.length;i++){
+    //   循环为所有的a绑定点击时间
+    tabs[i].onclick =function(){
+        for(let j = 0;j<tabs.length;j++){
+            tabs[j].className =' ';
+           uls[j].className =' ';
+        } 
+        //给当前选中的a和ul添加样式
+        tabs[i].className ='active';
+        uls[i].className ='must-current show';
+        uu = i;
+        for(let o = 0; o<tabs.length;o++){
+            if(o == uu){continue;}
+            else{uls[o].className ='must-current';}       
+        }
+    }
+    }
+    
+
+}
+
 
 

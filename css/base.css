@@ -52,3 +52,7 @@ input {
     width: 1152px;
     margin: 0 auto;
 }
+/* 隐藏板块 */
+.dis{
+    display: none;
+}
