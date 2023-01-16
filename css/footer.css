@@ -1,0 +1,41 @@
+.official{
+    width: 1200px;
+    height: 60px;
+    padding: 36px 0;
+    position: relative;
+}
+.official a{
+    width: 56px;
+    height: 28px;
+    margin-right: 24px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #545c63;
+}
+.obby{
+    font-size: 8px;
+}
+.outershow div{
+width: 60px;
+height: 59px;
+text-align: center;
+font-size: 6px;
+}
+.friendly{
+    width: 1152px;
+    height: 120px;
+    margin: 24px auto;
+    padding-bottom: 24px;
+    text-align: center;
+}
+.friendly span{
+    float: left;
+}
+.friendly a{
+    width: 100px;
+    padding: 1px 6px;
+    display: block;
+    float:left;
+}
+
+
