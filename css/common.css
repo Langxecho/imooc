@@ -1,0 +1,37 @@
+/*版心*/
+.w {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+/*左右浮动*/
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+/*消除浮动*/
+.clearfix {
+    *zoom: 1
+}
+
+/*隐藏样式*/
+.hiden,
+.none {
+    display: none;
+}
+
+.bg-white {
+    background-color: #fff;
+}
