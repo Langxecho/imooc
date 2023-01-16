@@ -1,0 +1,103 @@
+#entermust{
+    margin: 20px 0;
+    padding-bottom: 48px;
+    margin-bottom: 45px;
+}
+.must-body{
+    width: 1152;
+    height: 634px;
+
+    /* 删除 */
+    /* background-color: blue; */
+}
+.must-header{
+    width: 972px;
+    height: 36px;
+    padding: 30px 0;
+    background-color: #fff;
+}
+.must-header>img{
+    height: 36px;
+    width: 180px;
+    position: relative;
+}
+.must-header a {
+    font-size: 14px;
+    color: black;
+    font-weight: lighter;
+    padding: 0 10px;
+   display: inline-block;
+  margin-top: 10px;
+  transition: .3s;
+}
+.must-list{
+    width: 1182px;
+    height: 568px;
+   
+}
+/* 更改! */
+.must-current>li{
+    width: 270px;
+    height: 272px;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px 0 rgb(95 101 105 / 15%);
+    margin-right:24px;
+    margin-bottom: 24px;   
+}
+.must-list img{
+    width: 270px;
+    height: 152px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+   
+
+}
+
+.inner-title{
+    width: 254px;
+    height: 40px;
+    padding: 8px;
+    margin-bottom: 8;
+    color: #545c63;
+    line-height: 20px;
+    font-size: 14px;
+}
+.inner-difficulty{
+    width: 254px;
+    height: 18px;
+    margin-bottom: 8px;
+    padding: 0 8px;
+    color: #9199a1;
+    font-size: 12px;
+}
+.inner-price{
+    color: #f01414;
+    font-size: 14px;
+    width: 52px;
+    height: 20px;
+    padding-left: 8px;
+}
+.must-header .active{
+ border-bottom: 2px red solid;
+ font-weight: 700;
+ padding-bottom: 5px;
+}
+.must-list .show{
+    display:block;
+}
+/* 更改! */
+.must-current{
+    display:none;
+    transition: .3s;
+}
+
+/* 添加方法:在div添加pp,div里第一个加上<img src="../imagines/newly.png" alt="" class="niu"> */
+.niu{
+    position: absolute;
+    right: 0;
+    z-index: 999;
+    width: 70px !important;
+    height: 30px !important;
+}
+.pp{position: relative;}
+/* *** */
