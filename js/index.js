@@ -185,7 +185,7 @@ ul.onmouseenter = function() {
 // 倒计时
 {
     //获取结束时间点的时间戳
-    let endDate = new Date('2023-01-14 15:07:00');
+    let endDate = new Date('2023-01-19 15:07:00');
     endDate = parseInt(endDate.getTime()/1000);
     console.log(endDate);
 
@@ -236,14 +236,14 @@ const ul =document.querySelector('.sk-list ul');
 let timer = null;
 let leftPx = 0;
 timer = setInterval(() => {
-    leftPx = --leftPx ==-1920?0:leftPx;
+    leftPx = --leftPx == -1920?0:leftPx;
     ul.style.left = leftPx + 'px';
 }, 10);
 
 ul.onmouseenter = function() {
     clearInterval(timer);
 }
-ul.onmouseenter = function(){
+ul.onmouseleave = function(){
     timer = setInterval(() => {
         leftPx = --leftPx ==-1920?0:leftPx;
     ul.style.left = leftPx + 'px';

@@ -14,10 +14,10 @@
 
 /*logo*/
 .nav-box h1 {
-    width: 126px;
+    width: 144px;
     height: 72px;
-    background-image: url(../imagines/logo2020.png);
-    background-size: 126px 72px;
+    background-image: url(../imagines/tznewlogo.png);
+    background-size: 144px 72px;
 }
 
 /*!!!!!!!!!!!!!!*/
@@ -115,4 +115,13 @@
     border-radius: 50%;
     top: 50%;
     transform: translateY(40%);
+}
+.nav-item a{
+    font-size: 16px;
+    color: #fff ;
+    transition: .3s;
+}
+.nav-item a:hover{
+    color:gold;
+    font-size: 17px;
 }

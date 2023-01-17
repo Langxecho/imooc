@@ -28,7 +28,8 @@
     font-size: 16px;
     color: #9199a1;
     position: relative;
-    top: 10px;
+    top: 6px;
+    left: -20px;
 }
 .list-body{
     width: 1162px;

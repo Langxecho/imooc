@@ -99,7 +99,8 @@ font-size: 12px;
 .bottom .origin-price{
     padding: 2px 0;
     font-size: 12px;
-    color:#6d7278; ;
+    color:#6d7278; 
+
 }
 .bottom .delete-line{
     text-decoration: line-through;
@@ -136,4 +137,7 @@ font-size: 12px;
     padding: 16px 0;
     cursor: pointer;
     transition: .2s;
+}
+.all:hover{
+    color: gold;
 }
